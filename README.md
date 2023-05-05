@@ -1,4 +1,12 @@
-# Art_patio
+<h1 align="center">Art Patio</h1>
+<div align="center">
+  <!-- Release Version -->
+    <img src="https://img.shields.io/badge/Release-v1.0.0-red.svg?longCache=true&style=popout-square"
+      alt="Version" />
+  <!-- Last Updated -->
+    <img src="https://img.shields.io/badge/Updated-May 5, 2023-green.svg?longCache=true&style=flat-square"
+      alt="_time_stamp_" />
+</div>
 
 ## Abstract
 
