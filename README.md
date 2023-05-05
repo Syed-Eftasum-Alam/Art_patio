@@ -10,27 +10,22 @@ society. As the young custodians of our nation, it is our moral duty to promote 
 Furthermore, ”Art Patio” is not just a mere showcase platform; it is a revo- lutionary e-commerce site where artists can financially benefit from selling their unique and exceptional creations. We firmly believe that this state-of-the-art digital platform will be a game-changer for the art community, and it will prove to be an invaluable resource for those who appreciate the inimitable aspect of human creativity.
 
 
-**List of Features**
-
-Login /Sign-up
-Filter
-search
-Following artist and gallery
-Exhibition
-Vote for the best Art
-Artist of the month
-Customer profile
-Artist profile
-Gallery profile
-Add to favorite
-Artist Progress section
-Reviewing artist
-Sell ticket
-Auction
-Can chat with artist
-Events
-purchasing coin for auction
-Has an admin panel, so that no fraud activity can happen.
+## Features
+    * Login /Sign-up
+    * Filter
+    * Exhibition
+    * Customer profile
+    * Artist profile
+    * Gallery profile
+    * Add to favorite
+    * Artist Progress section
+    * Sell ticket
+    * Auction
+    * Events
+    * purchasing coin for auction
+    * Following Artists and Gallery
+    * Artists can apply their artwork for Exhibition
+    * Has an admin panel, so that no fraud activity can happen.
 
 
 
