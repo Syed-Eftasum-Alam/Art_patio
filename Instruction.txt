@@ -1,0 +1,1 @@
+Need to extract the dompdf.zip file to make the code of pdf generation work
