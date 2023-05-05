@@ -25,6 +25,16 @@ Furthermore, ”Art Patio” is not just a mere showcase platform; it is a revo-
     * Following Artists and Gallery
     * Artists can apply their artwork for Exhibition
     * Has an admin panel, so that no fraud activity can happen.
+    
+ ## Drawbacks
+    * Haven't implemented any chat system yet
+    * No e-mail communication method in our platform yet.
+&nbsp;
+&nbsp;
+## Build instructions
+just download the code and upload the "art_patio" database in the myphpadmin via xamp server then extract the dompdf.zip file in their corrosponding folder then just run the project it will work perfectly
+
+    
 
 
 
