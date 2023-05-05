@@ -1,6 +1,6 @@
 # Art_patio
 
-**Abstract**
+## Abstract
 
 A Digital Art gallery where Artists can upload their Artwork and customers can buy their desired Artworks and Gallery owners can post their upcoming events in our platform. 
 Art is the maneuver where humans demonstrate their own thought, viewpoint, concepts through creative and imaginative talent. It is the unique sector where
