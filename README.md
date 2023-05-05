@@ -33,9 +33,18 @@ Furthermore, ”Art Patio” is not just a mere showcase platform; it is a revo-
 &nbsp;
 ## Build instructions
 just download the code and upload the "art_patio" database in the myphpadmin via xamp server then extract the dompdf.zip file in their corrosponding folder then just run the project it will work perfectly
+&nbsp;
+&nbsp;
+## Screenshots
+**Index Page**
+| Index Page 1  | Index Page 2 | Index Page 3  | Index Page 4 | Index Page 5 |
+|---------------|--------------|---------------|--------------|--------------|
+| <img src="Screenshot/index page part 1.png" alt="Index Page 1" /> | <img src="Screenshot/index page part 2.png" alt="Index Page 2" /> | <img src="Screenshot/index page part 3.png" alt="Index Page 3" />|<img src="Screenshot/index page part 4.png" alt="Index Page 4" />|<img src="Screenshot/index page part 5.png" alt="Index Page 5" />|
 
-    
-
+**Log In  & Sign Up Page**
+|  Log in Page  | Sign Up Page |
+|---------------|--------------|
+| <img src="Screenshot/log in page.png" alt="Log in Page" /> | <img src="Screenshot/signup page.png" alt="Sign Up Page" /> |
 
 
 
