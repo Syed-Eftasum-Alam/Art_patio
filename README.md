@@ -62,6 +62,16 @@ just download the code and upload the "art_patio" database in the myphpadmin via
 |---------------|--------------|
 | <img src="Screenshot/log in page.png" alt="Log in Page" /> | <img src="Screenshot/signup page.png" alt="Sign Up Page" /> |
 
+**Profile Section**
+|  User Profile (Artist End) |
+|---------------|
+| <img src="Screenshot/user profile page (artist).png" alt="User Profile" /> 
+
+**Key Unique Features**
+
+|  Auction | Exhibition |
+|----------|--------------|
+| <img src="Screenshot/Bidding For Arts.png" alt="Auction" /> | <img src="Screenshot/Art Exhibition Page 1.png" alt="Exhibition" /> |
 
 
 ## Need Help?
