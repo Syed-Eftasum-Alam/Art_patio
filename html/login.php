@@ -1,5 +1,6 @@
 <?php
 require_once('Confiq.php');
+require_once('sendOTP.php');
 session_start();
 
 ?>
@@ -19,40 +20,22 @@ session_start();
 
     $email = $_POST['email'];
     $password = $_POST['password'];
-    echo "hello";
 
-    $select = " SELECT * FROM user_profile WHERE email = '$email' && password = '$password' ";
+    $select = "SELECT * FROM user_profile WHERE email = '$email' && password = '$password' ";
     $result = mysqli_query($conn, $select);
     if(mysqli_num_rows($result)>0){
         $row=mysqli_fetch_array($result);
-        $_SESSION['email'] = $row['email'];
-        $_SESSION['id'] = $row['id'];
-        $_SESSION['name'] = $row['name'];
-        $_SESSION['category'] = $row['category'];
-        $_SESSION['currancy'] = $row['currancy'];
-        $_SESSION['requestedCurrency'] = $row['requestedCurrency'];
-        $_SESSION['dp'] = $row['dp'];
-        $_SESSION['address'] = $row['address'];
-        $_SESSION['contact'] = $row['conatact'];
-        $_SESSION['followers'] = $row['followers'];
-        $_SESSION['description'] = $row['description'];
 
+        // Send OTP
+        $uid = $row['id'];
+        $_SESSION['uid'] = $row['id'];
+        if (mysqli_num_rows(mysqli_query($conn, "SELECT * FROM otp where uid=$uid")) == 0) {
+            $otp = rand(100000, 999999);
+            mysqli_query($conn, "INSERT INTO otp (uid, otp) VALUES ('$uid', '$otp')");
+            sendOTP($row, $otp);
+        }
 
-        if($row['category'] == 'Customer'){        
-            header('location:customerpage.php');
-   
-         }else if($row['category'] == 'Artist'){   
-            header('location:Artist/artistpage.php');
-   
-         }else if($row['category'] == 'Gallery'){
-            header('location:Gallery/gallerypage.php');
-   
-         }
-         else if($row['category'] == 'Admin'){
-            header('location:Admin/admin.php');
-   
-         }
-        
+        header('location:otp.php');
     }
     else{
         echo "Incorrect email or password!";

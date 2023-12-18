@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Classes */
+html,
+body,
+:root {
+  height: 100%;
+  @apply min-h-[100dvh];
+}
+
+.otp-field {
+  @apply w-full h-full flex flex-col gap-2 justify-center items-center;
+}
+
+.otp-field * button {
+  @apply ring-1 w-56 ring-orange-400 rounded-md p-1.5 shadow-lg;
+  @apply transition-all duration-300 ease-in-out;
+}
+
+.otp-field * input {
+  @apply ring-1 w-56 rounded-md p-2 shadow-lg transition-all duration-300 ease-in-out;
+}
+
+.btn-otp-submit {
+  @apply hover:bg-orange-500/80 hover:text-white;
+}
+
+.btn-otp-resend {
+  @apply hover:bg-yellow-100;
+}
+
+.otp-form {
+  @apply flex flex-col gap-2;
+}
+
+.otp-msg {
+  @apply w-full flex flex-col gap-1 justify-center items-center font-semibold border-b-2 p-3 uppercase;
+}
+
+.otp-warning {
+  @apply otp-msg text-yellow-600 bg-yellow-100;
+}
+
+a {
+  @apply border-dashed hover:border-b-2 border-blue-300 text-cyan-800 hover:text-cyan-800 visited:text-purple-600;
+}
+
+.otp-success {
+  @apply otp-msg text-green-600 bg-green-100;
+  /* @apply  */
+}
